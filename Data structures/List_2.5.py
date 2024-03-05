@@ -22,3 +22,36 @@ not_nam[7][1]
 type(not_nam[7])
 
 type(not_nam[7][1])
+
+################################
+# Liste Metodları (List Methods)
+################################
+
+dir(notes)
+
+################################
+# Len: builtin python fonksiyonu, boyut bilgisi
+################################
+
+len(notes)
+len(not_nam)
+
+################################
+# append: eleman ekler
+################################
+
+notes
+notes.append(100)
+
+################################
+# pop: indexe göre siler
+################################
+
+notes.pop(0)
+
+################################
+# insert: indexe ekler
+################################
+
+notes.insert(0, 88)
+
