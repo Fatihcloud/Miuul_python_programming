@@ -66,7 +66,3 @@ new_dict = {col: agg_list for col in num_cols}
 df[num_cols].head()
 
 df[num_cols].agg(new_dict)
-
-liste = [1,2,3,4,5]
-yeni_liste = [i for i in liste]
-print(yeni_liste)
