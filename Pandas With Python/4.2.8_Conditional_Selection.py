@@ -13,5 +13,9 @@ df[df["age"] > 50]["age"].count()
 
 df.loc[df["age"] > 50, ["age", "class"]].head()
 
-df.loc[(df["age"] > 50) & df["sex"] == "male", ["age", "class"]].head()
+df.loc[(df["age"] > 50) & (df["sex"] == "male"), ["age", "class"]].head()
 
+df.loc[(df["age"] > 50)
+       & (df["sex"] == "male")
+       & ((df["embark_town"] == "Cherbourg") | (df["embark_town"] == "Southampton")),
+["age", "class", "embark_town"]].head()
