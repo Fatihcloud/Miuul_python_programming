@@ -1,0 +1,21 @@
+################################
+# Seaborn
+################################
+
+import pandas as pd
+import seaborn as sns
+from matplotlib import pyplot as plt
+
+pd.set_option('display.width', 500)
+df = sns.load_dataset("tips")
+
+df["sex"].value_counts()
+sns.countplot(x=df["sex"], data=df)
+
+################################
+# Sayısal Değişken Görselleştirme
+################################
+
+sns.boxplot(x=df["total_bill"])
+
+df["total_bill"].hist()
