@@ -80,5 +80,3 @@ df.drop("age3", axis=1).head()
 df.drop(col_names, axis=1).head()
 
 df.loc[:, ~df.columns.str.contains("age")].head()
-
-

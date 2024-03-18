@@ -13,9 +13,3 @@ s.ndim
 s.values
 s.head(3)
 s.tail(3)
-
-
-
-
-
-

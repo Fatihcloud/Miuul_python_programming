@@ -43,9 +43,3 @@ df.loc[:, df.columns.str.contains("age")].apply(standart_scaler).head()
 df.loc[:, ["age", "age2", "age3"]] = df.loc[:, df.columns.str.contains("age")].apply(standart_scaler).head()
 
 df.loc[:, df.columns.str.contains("age")] = df.loc[:, df.columns.str.contains("age")].apply(standart_scaler).head()
-
-
-import pandas as pd
-data = {'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9]}
-df = pd.DataFrame(data)
-subset = df.loc[0:1, ['A', 'B']]
