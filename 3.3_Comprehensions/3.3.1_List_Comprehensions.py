@@ -1,5 +1,5 @@
 ################################
-# Comprehensions
+# 3.3_Comprehensions
 ################################
 
 ################################
@@ -27,7 +27,7 @@ for salary in salaries:
 #################################################
 
 ################################
-# List Comprehensions
+# List 3.3_Comprehensions
 ################################
 
 [new_salary(salary * 2) if salary < 3000 else new_salary(salary) for salary in salaries]

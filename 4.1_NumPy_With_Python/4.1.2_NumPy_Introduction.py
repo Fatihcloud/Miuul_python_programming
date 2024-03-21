@@ -9,7 +9,7 @@
 # Index Seçimi (Index Selection)
 # Slicing
 # Fancy Index
-# Numpy'da Koşullu İşlemler (Conditions on Numpy)
+# Numpy'da Koşullu İşlemler (3.2_Conditions on Numpy)
 # Matematiksel İşlemler (Mathematical Operations)
 
 

@@ -1,5 +1,5 @@
 ################################
-# Numpy'da Koşullu İşlemler (Conditions on numpy)
+# Numpy'da Koşullu İşlemler (3.2_Conditions on numpy)
 ################################
 
 import numpy as np

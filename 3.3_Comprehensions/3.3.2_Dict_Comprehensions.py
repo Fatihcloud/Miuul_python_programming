@@ -1,5 +1,5 @@
 ################################
-# Dict Comprehensions
+# Dict 3.3_Comprehensions
 ################################
 
 dictionary = {'a': 1,
@@ -35,4 +35,3 @@ for n in numbers:
         new_dict[n] = n
 
 {n ** 2 if n % 2 == 0 else n: n for n in numbers}
-

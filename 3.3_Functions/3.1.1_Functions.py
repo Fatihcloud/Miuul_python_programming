@@ -1,9 +1,9 @@
 ##################################################
-# Fonsiyonlar, Koşullar, Döngüler, Comprehensions
+# Fonsiyonlar, Koşullar, Döngüler, 3.3_Comprehensions
 ##################################################
 
-# - Fonksiyonlar (Functions)
-# - Koşullar (Conditions)
+# - Fonksiyonlar (3.3_Functions)
+# - Koşullar (3.2_Conditions)
 # - Döngüler (Loops)
 # - Comprehesions
 

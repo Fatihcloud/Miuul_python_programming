@@ -1,5 +1,5 @@
 ################################
-# Koşullar (Conditions)
+# Koşullar (3.2_Conditions)
 ################################
 
 # True-False'u hatırlayalım
